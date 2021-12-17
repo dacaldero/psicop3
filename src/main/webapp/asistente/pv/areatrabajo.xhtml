@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <ui:composition>
+        
+               <div class="content-wrapper">
+                   <br></br>                   
+                  <div class="container-fluid bg-info d-flex justify-content">                       
+                      <i class= "lef abs-center"><a href="#{request.contextPath}/asistente/pv/registropaciente.xhtml"><img src="#{request.contextPath}/assets/images/registro.png" width="140" height ="140"/></a></i><h2><br></br>Registro de Pacientes</h2>
+                  </div>
+                   <br></br>
+                   <center>
+                       <h2>Registre la Información del Paciente</h2>
+                   </center>
+                   <form class="row g-3 needs-validation" novalidate="">
+                       <div class="col-md-4">
+
+                           <label for="validationCustom01" class="form-label">Nombres</label>
+                           <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                               <div class="valid-feedback">    
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustom02" class="form-label">Apellidos</label>
+                           <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>
+                               <div class="valid-feedback">
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustomUsername" class="form-label">Correo electronico</label>
+                           <div class="input-group has-validation">
+                               <span class="input-group-text" id="inputGroupPrepend">@</span>
+                               <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input>
+                                   <div class="invalid-feedback">
+                                       Please choose a username.
+                                   </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <label for="validationCustom03" class="form-label">Dirección</label>
+                           <input type="text" class="form-control" id="validationCustom03" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please provide a valid city.
+                               </div>
+                       </div>
+                       <div class="col-md-3">
+                           <label for="validationCustom04" class="form-label">Ciudad</label>
+                           <input type="text" class="form-control" id="validationCustom05" required=""></input>    
+                           <br></br>
+                                
+                           
+                           <div class="invalid-feedback">
+                               Please select a valid state.
+                           </div>
+                       </div>
+                       <div class="col-md-3">
+                           <label for="validationCustom05" class="form-label">Departamento</label>
+                           <input type="text" class="form-control" id="validationCustom05" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please provide a valid zip.
+                               </div>
+                       </div>
+
+                   </form> 
+                   <form class="row g-3 needs-validation" novalidate="">
+                       <div class="col-md-4">
+
+                           <label for="validationCustom01" class="form-label">Edad</label>
+                           <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                               <div class="valid-feedback">    
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustom02" class="form-label">Fecha de Nacimiento</label>
+                           <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>
+                               <div class="valid-feedback">
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustomUsername" class="form-label">Teléfono</label>
+                           <div class="input-group has-validation">
+                               <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input></div>
+                                   <div class="invalid-feedback">
+                                       Please choose a username.
+                                   </div>
+                           </div>
+                   </form>
+                       </div>
+                     
+                    <form  class="row g-3 needs-validation" novalidate="">
+                        <div class="col-md-3">
+                           <label for="validationCustom03" class="form-label">Nivel de Escolaridad</label>
+                           <input type="text" class="form-control" id="validationCustom03" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please provide a valid city.
+                               </div>
+                        </div>  
+                     
+                       <div class="col-md-3">
+                           <label for="validationCustom04" class="form-label">Estado Civil</label>
+                           <input type="text" class="form-control" id="validationCustom03" required=""></input>
+                           
+                           <div class="invalid-feedback">
+                               Please select a valid state.
+                           </div>
+                       </div>
+                       <div class="col-md-3">
+                           <label for="validationCustom05" class="form-label">Tipo Identificacíon</label>
+                           <input type="text" class="form-control" id="validationCustom05" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please provide a valid zip.
+                               </div>
+                       </div>
+                    </form>   
+
+                    <form class="row g-3 needs-validation" novalidate="">
+                       <div class="col-md-4">
+
+                           <label for="validationCustom01" class="form-label">Numero de Identificación</label>
+                           <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                               <div class="valid-feedback">    
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustom02" class="form-label">Ocupación</label>
+                           <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>
+                               <div class="valid-feedback">
+                                   Looks good!
+                               </div>
+                       </div>
+                       <div class="col-md-4">
+                           <label for="validationCustomUsername" class="form-label">Profesión</label>
+                           <div class="input-group has-validation">
+                               <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input>
+                                   <div class="invalid-feedback">
+                                       Please choose a username.
+                                   </div>
+                           </div>
+                       </div>
+
+                   </form> 
+                   <form class="row g-3 needs-validation" novalidate="">          
+
+               <div class="col-12">
+                   <button class="btn btn-primary" type="submit">Registrar</button>
+               </div>
+                       <div class="col-12"><br></br>
+                       <div class="form-check">
+                           <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required=""></input>
+
+                               <div class="invalid-feedback">
+                                   You must agree before submitting.
+                               </div>
+                       </div>
+               </div>
+               <label class="form-check-label" for="invalidCheck">
+                   ¿Requiere Registrar Acudiente?
+               </label>
+               </form> 
+               <center>
+                   <h2>Registre la Información del Acudiente </h2>
+               </center>
+
+               <form class="row g-3 needs-validation" novalidate="">
+                   <div class="col-md-4">
+
+                       <label for="validationCustom01" class="form-label">Nombres</label>
+                       <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                           <div class="valid-feedback">    
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustom02" class="form-label">Apellidos</label>
+                       <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>
+                           <div class="valid-feedback">
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustomUsername" class="form-label">Correo electronico</label>
+                       <div class="input-group has-validation">
+                           <span class="input-group-text" id="inputGroupPrepend">@</span>
+                           <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please choose a username.
+                               </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="validationCustom03" class="form-label">Dirección</label>
+                       <input type="text" class="form-control" id="validationCustom03" required=""></input>
+                           <div class="invalid-feedback">
+                               Please provide a valid city.
+                           </div>
+                   </div>
+                   <div class="col-md-3">
+                       <label for="validationCustom04" class="form-label">Ciudad</label>
+                       
+                       <div class="invalid-feedback">
+                           Please select a valid state.
+                       </div>
+                   </div>
+                   <div class="col-md-3">
+                       <label for="validationCustom05" class="form-label">Departamento</label>
+                       <input type="text" class="form-control" id="validationCustom05" required=""></input>
+                           <div class="invalid-feedback">
+                               Please provide a valid zip.
+                           </div>
+                   </div>
+
+               </form> 
+               <form class="row g-3 needs-validation" novalidate="">
+                   <div class="col-md-4">
+
+                       <label for="validationCustom01" class="form-label">Edad</label>
+                       <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                           <div class="valid-feedback">    
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustom02" class="form-label">Fecha de Nacimiento</label>
+                       <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>
+                           <div class="valid-feedback">
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustomUsername" class="form-label">Teléfono</label>
+                       <div class="input-group has-validation">
+                           <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please choose a username.
+                               </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6">
+                       <label for="validationCustom03" class="form-label">Nivel de Escolaridad</label>
+                       <input type="text" class="form-control" id="validationCustom03" required=""></input>
+                           <div class="invalid-feedback">
+                               Please provide a valid city.
+                           </div>
+                   </div>
+                   <div class="col-md-3">
+                       <label for="validationCustom04" class="form-label">Estado Civil</label>
+                        <input type="text" class="form-control" id="validationCustom03" required=""></input> 
+                                                 
+                       <div class="invalid-feedback">
+                           Please select a valid state.
+                       </div>
+                   </div>
+                   <div class="col-md-3">
+                       <label for="validationCustom05" class="form-label">Tipo Identificacíon</label>
+                       <input type="text" class="form-control" id="validationCustom05" required=""></input>
+                           <div class="invalid-feedback">
+                               Please provide a valid zip.
+                           </div>
+                   </div>
+
+               </form> 
+
+               <form class="row g-3 needs-validation" novalidate="">
+                   <div class="col-md-4">
+
+                       <label for="validationCustom01" class="form-label">Numero de Identificación</label>
+                       <input type="text" class="form-control" id="validationCustom01" value="" required=""></input>
+                           <div class="valid-feedback">    
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustom02" class="form-label">Ocupación</label>
+                       <input type="text" class="form-control" id="validationCustom02" value="" required=""></input>    
+                           <div class="valid-feedback">
+                               Looks good!
+                           </div>
+                   </div>
+                   <div class="col-md-4">
+                       <label for="validationCustomUsername" class="form-label">Profesión</label>
+                       <div class="input-group has-validation">
+                           <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required=""></input>
+                               <div class="invalid-feedback">
+                                   Please choose a username.
+                               </div>
+                       </div>
+                   </div>
+                   <div class="col-12">
+                       <button class="btn btn-primary" type="submit">Registrar</button>
+                   </div>
+                   <br></br> 
+                   <br></br> 
+               </form>   
+                            
+                  
+               
+                                        
+                
+    </ui:composition>
+</html>
+
